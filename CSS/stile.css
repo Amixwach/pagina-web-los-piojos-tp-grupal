@@ -1,0 +1,154 @@
+
+
+/* Estilos para toda la pagina:  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #3b3636;
+}
+
+
+/* Estilos para el header: */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b3636;
+    padding: 1px 20px;
+    top: 0;
+    }
+
+.logo-header {
+    border-radius: 50%;
+    }
+
+h1 {
+    font-size: 1.5rem;
+    color: white;
+    line-height: 1.2;
+    text-align: center;
+}
+h1 span {
+    font-size: 0.8rem;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+
+/* Estilo para todas las secciones: */
+section {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(71, 68, 68, 0.25);
+}
+
+
+/* Estilo para la sección FECHAS: */
+.fecha img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 2px;
+    margin: 1px;
+}
+
+
+/* Estilo para la sección HISTORIA: */
+.historia a {
+    font-weight: 700;
+    text-decoration: none;
+}
+.historia a:visited {
+    color: #3b3636;
+}
+.historia a:hover {
+    color: #000000;
+}
+
+
+/* Estilo para la GALERIA:  */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 5px;
+    object-fit: cover; 
+    margin: 2px 0; 
+}
+
+
+/* Estilo para COMPRÁ TUS ENTRADAS:
+
+#entradas {
+    text-decoration: none;
+    color: #ddd;
+    padding: 15px;
+    margin: 2px;
+    background-color: rgb(228, 26, 19);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#entradas:hover {
+    color: #ddd;
+    background-color: rgb(228, 26, 19);
+} */
+
+
+/* Estilo para el FOOTER */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3b3636;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    }
+
+footer a:hover {
+    color: #ddd;
+}
+
+footer p {
+    font-size: small;
+}
+
